@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>modify</title>
+    <title>travelGuide</title>
     <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../assets/css/sub-style.css" rel="stylesheet">
     <link href="../../assets/css/header.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container modify">
+    <div class="container">
         <!-- header -->
         <header class="header-inner">
             <div class="logo-box">
                 <a href="#" class="logo">
-                    <img src="/assets/images/mainpage/header_logo.png" alt="로고이미지" class="mo">
+                    <img src="../../assets/images/mainpage/header_logo.png" alt="로고이미지" class="mo">
                 </a>
             </div>
             <div class="menu_open">
@@ -78,45 +77,55 @@
         </header>
         <!-- /header -->
         <div class="body">
-            <div class="login-box mt-4 mb-6">
-                <h1 class="text-center">회원정보 관리</h1>
-    
-                <hr>
-                <form>
-                    <div class="row align-items-end mt-4 mb-4">
-                        <div class="col">
-                            <button type="submit" class="btn btn-outline-primary w-100">프로필 이미지 변경</button>
-                        </div>
+            <h2 class="center">가이드북</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <div class="h-75 w-100">
+                        <img src="../../assets/images/mainpage/o_img3.jpg" class="h-75 card-img-top" alt="...">
                     </div>
-                    <div class="form-floating mb-2">
-                        <input type="text" class="form-control" id="floatingId" placeholder="ID" disabled="">
-                        <label for="floatingId">입력한 ID</label>
+                    <div class="card-body">
+                      <h3 class="card-title">부산관광지도</h3>
+                      <a href="#" class="btn btn-primary">다운로드</a>
                     </div>
-                    <div class="form-floating mb-2">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">비밀번호</label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="h-75 w-100">
+                        <img src="../../assets/images/mainpage/o_img3.jpg" class="h-75 card-img-top" alt="...">
                     </div>
-                    <div class="form-floating mb-2">
-                        <input type="id" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">닉네임</label>
+                    <div class="card-body">
+                      <h3 class="card-title">꼭 가봐야 할 부산여행 15곳</h3>
+                      <a href="#" class="btn btn-primary">다운로드</a>
                     </div>
-                    <div class="form-floating mb-2">
-                        <input type="id" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">이메일 주소</label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="h-75 w-100">
+                        <img src="../../assets/images/mainpage/o_img3.jpg" class="h-75 card-img-top" alt="...">
                     </div>
-                    <div class="row align-items-end mt-4 mb-4">
-                        <div class="col">
-                            <button type="submit" class="btn btn-danger w-100">취소하기</button>
-                        </div>
-                        <div class="col">
-                            <button type="submit" class="btn btn-primary w-100">회원정보 변경</button>
-                        </div>
+                    <div class="card-body">
+                      <h3 class="card-title">큰글씨로 보는 부산관광지도</h3>
+                      <a href="#" class="btn btn-primary">다운로드</a>
                     </div>
-                </form>
-            </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="h-75 w-100">
+                        <img src="../../assets/images/mainpage/o_img3.jpg" class="h-75 card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">도시철도로 떠나는 부산여행</h3>
+                        <a href="#" class="btn btn-primary">다운로드</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
     </div>
+    <script src="../../assets/js/bootstrap.min.js"></script>
 </body>
-<script src="/assets/js/bootstrap.min.js"></script>
-
 </html>
