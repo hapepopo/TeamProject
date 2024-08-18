@@ -200,6 +200,9 @@ header {
         justify-content: space-between;
         gap: 75px;
     }
+    .header-inner .menu_close {
+        display: none;
+    }
     .header-inner .menu_open {
         display: none;
     }
@@ -208,7 +211,40 @@ header {
     }
     /* 메뉴 active 상태 */
     .header-inner .menu-box.active {
-        display: none;
+        position: static;
+        background-color: #fff;
+        height: 100%;
+        display: flex;
+        width: 100%;
+        padding: 0;
+    }
+    .header-inner .menu-box.active .menu-list {
+        padding-bottom: 0;
+        margin-bottom: 28px;
+        border-bottom: 1px #fff solid;
+        display: flex;
+        gap: 80px;
+    }
+    .menu-box.active .menu-list {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 28px;
+        gap: 80px;
+        padding-bottom: 0;
+    }
+    .menu-box.active .menu-list>li {
+        font-weight: 500;
+        padding: 39px 0;
+        font-size: 22px;
+    }
+    .menu-box.active .menu-list>li a {
+        color: #333;
+    }
+    .menu-box.active .link-box>li {
+        padding: 42px 0;
+    }
+    .menu-box.active .link-box>li>a {
+        color: #333;
     }
 }
 
